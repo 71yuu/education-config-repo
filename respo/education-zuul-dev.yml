@@ -8,8 +8,8 @@ server:
 zuul:
   routes:
     api-reg:
-      path: /api/*
-      serviceId: ymall-api-member
+      path: /user/**
+      serviceId: education-user-server
 
 ribbon:
   ReadTimeout: 5000
