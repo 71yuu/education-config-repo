@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: education-admin
+
+server:
+  port: 8084

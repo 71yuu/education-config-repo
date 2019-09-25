@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: education-zuul
+
+server:
+  port: 8769
+
+zuul:
+  routes:
+    api-reg:
+      path: /api/*
+      serviceId: ymall-api-member
+
+ribbon:
+  ReadTimeout: 5000
