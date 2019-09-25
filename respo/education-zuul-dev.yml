@@ -10,8 +10,6 @@ zuul:
     user-server:
       path: /user/**
       serviceId: education-user-service
-    web:
-      prefix: false
 
 ribbon:
   ReadTimeout: 5000
