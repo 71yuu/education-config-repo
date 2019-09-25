@@ -9,7 +9,7 @@ zuul:
   routes:
     user-server:
       path: /user/**
-      serviceId: education-user-server
+      serviceId: education-user-service
     web:
       prefix: false
 
