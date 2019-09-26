@@ -13,6 +13,7 @@ zuul:
     service-system:
       path: /system/**
       serviceId: education-service-system
+      strip-prefix: false
 
 ribbon:
   ReadTimeout: 5000
