@@ -8,11 +8,13 @@ server:
 zuul:
   routes:
     service-user:
-      path: /api/user/**
+      path: /user/**
       serviceId: education-service-user
+      strip-prefix: false
     service-system:
-      path: /api/system/**
+      path: /system/**
       serviceId: education-service-system
+      strip-prefix: false
 
 ribbon:
   ReadTimeout: 5000
