@@ -1,6 +1,6 @@
 spring:
   application:
-    name: education-user-service
+    name: education-service-user
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
