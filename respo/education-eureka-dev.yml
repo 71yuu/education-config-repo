@@ -1,6 +1,6 @@
 spring:
   application:
-    name: education-service-eureka
+    name: education-eureka
 
 server:
   port: 8761

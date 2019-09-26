@@ -1,6 +1,6 @@
 spring:
   application:
-    name: education-service-admin
+    name: education-admin
 
 server:
   port: 8084

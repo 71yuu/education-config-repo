@@ -1,6 +1,6 @@
 spring:
   application:
-    name: education-service-zuul
+    name: education-zuul
 
 server:
   port: 8769
