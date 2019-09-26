@@ -7,9 +7,12 @@ server:
 
 zuul:
   routes:
-    user-server:
+    service-user:
       path: /user/**
-      serviceId: education-user-service
+      serviceId: education-service-user
+    service-system:
+      path: /system/**
+      serviceId: education-service-system
 
 ribbon:
   ReadTimeout: 5000
