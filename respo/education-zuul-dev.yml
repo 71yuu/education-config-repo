@@ -8,10 +8,10 @@ server:
 zuul:
   routes:
     service-user:
-      path: /user/**
+      path: /api/user/**
       serviceId: education-service-user
     service-system:
-      path: /system/**
+      path: /api/system/**
       serviceId: education-service-system
 
 ribbon:
