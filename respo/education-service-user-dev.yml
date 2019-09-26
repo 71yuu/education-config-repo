@@ -17,11 +17,10 @@ spring:
       connection-timeout: 30000
       connection-test-query: SELECT 1
 
-
 server:
   port: 8001
 
 mybatis:
   # 实体类的存放路径
-  type-aliases-package: com.yuu.education.user.service.domain
+  type-aliases-package: com.yuu.education.service.user.domain
   mapper-locations: classpath:mapper/*.xml
