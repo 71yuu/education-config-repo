@@ -22,5 +22,5 @@ server:
 
 mybatis:
   # 实体类的存放路径
-  type-aliases-package: com.yuu.education.system.service.domain
+  type-aliases-package: com.yuu.education.service.system.domain
   mapper-locations: classpath:mapper/*.xml
