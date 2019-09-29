@@ -3,6 +3,6 @@ swagger:
   basic:
     enable: true
     ## Basic认证用户名
-    username: zhangsan
+    username: Yuu
     ## Basic认证密码
-    password: 123
+    password: 070620
